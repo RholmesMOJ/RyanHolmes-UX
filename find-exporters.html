@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html data-current="home" lang="en">
+	<head>
+		<title>RBH - IxD</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+	<body>
+	  <div class="wrapper">	
+		<header id="header">
+			<span><a class="home-link" href="https://rholmesmoj.github.io/RyanHolmes-UX/" title="Back to homepage">RBH-UX</a></span>
+			<div class="face-container"></div>
+		</header>
+		<main>
+            <h1 class="project-title">DIT - DATA SCIENCE - FIND EXPORTERS</h1>
+            <h2>The project</h2>
+            <summary><p>In the wake of the Brexit vote the government began the process of overhauling trade regulations around importing and exporting of goods and services. </p>
+
+            <p>One of the systems being used trying to promote this agenda was Find Exporters in the Department for International Trade. This was a case management system and business directory, used by business hubs to find suitable businesses to meet their hub's needs. </p></summary>
+
+            <h2>State of play</h2>
+
+            <summary><p>This was my first role in design and in government. The team had done some initial research but they had no designs and had not done any prototyping or early sketching.</p></summary>
+
+            <h2>The team</h2>
+
+            <ul>
+                <li>Data Scientists </li>
+                <li>Business Analyst </li>
+                <li>User Researcher</li>
+                <li>Project and Delivery Managers </li>
+                <li>Front and back end developers </li>
+            </ul>
+
+            <h2>Understanding the current processes</h2>
+
+            <summary><p>I paired with the User Researcher for a series of interviews with the international business hubs to understand how they operated. </p></summary>
+
+             <h2>Testing</h2>
+
+            <summary><p>Before we did a first round of testing I put together a quick prototype mimicking the homepage with the group of filters.</p>
+
+            <p>Testing was done with a number of business hubs to understand how they operated and fulfilled some of their KPIs. I wanted to understand whether the users were able to find a business which would match their opportunity. </p>
+
+            <p>Each office was responsible for generating a number of opportunities per month</p></summary>
+
+            <h2>Propensity Score</h2>
+
+            <summary><p>We tested this feature to understand whether users understood this score. It was a score used to inform users of a rating of a company based on a number of factors in regards to the business. It would be a rating from very low to very high, taking  into account employment numbers, turnover and export win numbers etc. </p>
+
+
+             <figure class="compare">
+               <img src="images/find-exporters-1.png" class="example" alt="">
+              <figcaption>First version of the landing page</figcaption>
+            </figure>
+
+            <h2>Round 1 of testing research</h2>
+
+            <ul>
+                <li>What was the information they wanted to see? </li>
+                <li>Did they trust the business information?</li>
+                <li>What would they do next with this data?</li>
+                <li>Is there anything missing?</li>
+                <li>Did they understand the propensity score? </li>
+            </ul>
+
+             <h2>Round 1 of testing results</h2>
+
+            <ul>
+                <li>The business data was viewed as untrustworthy </li>
+                <li>Usually the next steps would be to check Companies House or trusted government sources and then email the company with details about the opportunity. </li>
+                <li>Users found the UI clunky and found some of the information to be unhelpful.</li>
+                <li>Users did not understand propensity score, how it was made up or whether it was reliable as a source.</li>
+            </ul>
+
+
+             <figure class="compare">
+               <img src="images/find-exporters-2.png" class="example" alt="">
+              <figcaption>Screenshot of the homepage for second round of testing</figcaption>
+            </figure>
+
+            <h2>Round 2 of testing </h2>
+
+            <p>Before we did a first round of testing I made the following changes to the UI</p>
+
+            <ul>
+                <li>removing the boxes surrounding entries </li>
+                <li>Changed the propensity score to - “Export Potential”. I wanted to see if this made more sense to our users.</li>
+                <li>Removed the sectors tag, users found this unhelpful</li>
+                <li>Added in a primary address</li>
+            </ul>
+
+             <h2>Round 2 of testing</h2>
+             <p>Some things we wanted to validate with the HTML prototype</p>
+
+            <ul>
+                <li>Were users now happy with the information? </li>
+                <li>Did they understand and trust the export potential score?</li>
+                <li>Would they trust the information presented on the screen?</li>
+                <li>Would they feel comfortable approaching a business from the information they have here?</li>
+            </ul>
+
+            <h2>Round 2 of testing results</h2>
+             <p>Some of the key takeaways from the session where;</p>
+
+            <ul>
+                <li>Users were now happy with the information that they were being presented with</li>
+                <li>They were able to easily work out what the export potential score was, though users were not 100% confident where the data it was made had come from. Though once the participants knew what it was, they viewed it positively.</li>
+                <li>Instead of having a static number, users would like the number to dynamically display the number of businesses</li>
+                <li>The filters were useful but were in the wrong order.</li>
+                <li>Users found there to be a lot of information in regards to the business data. </li>
+
+            </ul>
+
+
+             <figure class="compare">
+               <img src="images/find-exporters-3.png" class="example" alt="">
+              <figcaption>Screenshot of the landing page</figcaption>
+            </figure>
+
+             <h2>Round 3 of testing</h2>
+             <p>Another session iterating on what I learnt previously</p>
+
+            <ul>
+                <li>I worked with a content designer on summing up the export potential score. I then added this as help text under the filter option. I wanted to know did this ensure more confidence?</li>
+
+                <li>Moved Export Potential to be more centralised and bolded for easier visibility. </li>
+
+                <li>I made the change to remove lines of data if the system had nothing to show, did this make the information more digestible?</li>
+
+                <li>I reworked the filters, were the more frequently used filters at the top now?</li>
+
+            </ul>
+
+             <h2>Round 3 of testing results</h2>
+             <p>The key takeaways</p>
+
+            <ul>
+                <li>The content describing the Export Potential score was received positively. Users found it to be useful and trustworthy when making decisions about contacting companies.</li>
+
+                <li>The changes I made to remove lines of data if the system had nothing to show cleared up the space and users found it easier to then digest the information that was present. </li>
+
+                <li>The restructure of filters also was greatly received. Moving the last export evidence date and commodity code further up was crucial as these were some of the more frequently used.</li>
+
+            </ul>
+
+
+            <h2>Outcome</h2>
+             <p>The result of this design cycle was that users felt like the information being presented was useful and trust worthy. This had a huge impact on the business hub processes. All of the information allowed users to make quicker decisions, getting to the stage of contacting a business sooner. </p>
+                
+           <p> I would have loved the opportunity to continue to iterate this project but I was offered the opportunity to move to the Ministry of Justice. </p>
+
+        </main>
+	</div>
+	<footer><div class="copyright"><small>&copy; RWK-UX</small></div></footer>	
+	<!-- <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script> -->
+	</body>
+</html>

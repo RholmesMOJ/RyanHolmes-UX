@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html data-current="home" lang="en">
+	<head>
+		<title>RBH - IxD</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+	<body>
+	  <div class="wrapper">	
+		<header id="header">
+			<span><a class="home-link" href="https://rholmesmoj.github.io/RyanHolmes-UX/" title="Back to homepage">RBH-UX</a></span>
+			<div class="face-container"></div>
+		</header>
+		<main>
+            <h1 class="project-title">OPG - SIRIUS - SUPERVISION</h1>
+            <h2>The project</h2>
+            <summary><p>The Office of the Public Guardian (OPG) is undertaking a transformation project to improve the user experience and the accessibility of their case management systems. </p>
+
+            <p>This part of the project is to design a workflow tool to help Workflow Managers track and share tasks within, and between, their teams. </p>
+
+           <p> Workflow Managers export data for each team’s workload and a snapshot file is manually updated every week. This file covers the type of tasks, what has been completed, what is due and the age of due tasks. These tasks depending on the date are colour-coded to highlight those tasks that are overdue. </p>
+
+           <p> This helps Workflow Managers to see what work needs to be completed in a given week, prioritise overdue and important tasks, and reassign tasks. </p>
+
+           <p> Each workflow manager has a different process to allocate work to their teams because there is no standard process or tool. </p>
+
+           
+
+            <h2>Understanding the current processes</h2>
+
+            <p> I had joined OPG from HMPPS and Central Digital so was keen to see how things were currently done. I began shadowing some of the Workflow Managers. This allowed me some more casual time for myself to watch users complete tasks and to ask questions. </p>
+
+            <p> I then paired with the User Researcher for a series of more formal interviews with the Workflow Managers, this was great in adding further knowledge and filling in the gaps. </p>
+
+
+           
+            <h2>State of play</h2>
+
+            <p>I joined the team after it had gone through a long period of design hiatus. This meant that the designs I inherited were mostly in need of some updated research and iteration. The live system however was in a state of limbo with large parts of the legacy system being slowly replaced.  </p>
+
+            <p> The user researcher on the team was also new so it was a great opportunity for us to really learn the space together.  </p>
+
+            <p> Before we went into testing I wanted to update some of the patterns in the prototype and test those. The due date highlights the urgent date with a coloured line and states clearly underneath what the detail of the urgency is. I felt as though the line shown was too thin and thought we could adopt the MOJ tag pattern  </p>
+
+
+            <h2>Time to test </h2>
+
+            <p>Testing was done with 3 different teams - Lay, Pro and Public Authority initially. Each of these teams have a need to see different items of data so I created these different views to help in testing. The first round of testing was done with a member from each team. </p>
+
+            <figure class="compare">
+               <img src="images/opg-1.png" class="example" alt="">
+              <figcaption>Screenshot of workflow homepage</figcaption>
+            </figure>
+
+            <h2>Round 1 of testing </h2>
+            <p>Some things we wanted to validate with the HTML prototype</p>
+
+            <ul>
+                <li>Is the information within the table relevant?</li>
+                <li>Did they find the data in the grey “your tasks” section useful?</li>
+                <li>Were the filters useful? </li>
+                <li>Did users understand the tags? Was it still obvious what this feature was communicating to them?</li>
+            </ul>
+
+            <h2>Round 1 of testing results </h2>
+            <p>Some things we wanted to validate with the HTML prototype</p>
+
+            <ul>
+                <li>The information around the tasks within the table was useful and nothing else was needed </li>
+                <li>The data in the “your tasks” was not all that helpful and took up valuable space on the page</li>
+                <li>The filters provided information that was useful - however there was feedback on certain processes still remaining long winded.</li>
+                <li>The tags were understood and preferred the new layout - users commented that the addition of more colour, combined with the status made it easier on the eye. It also conformed with updated GDS pattern guidance.</li>
+            </ul>
+
+            <p>The main identified problem for Workflow Managers came when checking staff workload. Users would have to select the task type and then the colleague. This had the potential to take a while to load. When taking into account users were repeating the process then with the next person and so on, it became very time consuming. </p>
+        
+
+        <h2>Round 2 of testing  </h2>
+            <p>Before we did the second round of testing I made some iterations:</p>
+
+            <ul>
+                <li>Removed the grey data box at the top, most users just commented on how much space it took up </li>
+                <li>Added in numbers indicating caseloads for staff -  this was so Workflow Managers could get a quick snapshot of their Case Managers workload.</li>
+                <li>Added deputy into the table, was this something users found useful</li>
+            </ul>
+
+          <figure class="compare">
+               <img src="images/opg-2.png" class="example" alt="">
+              <figcaption>Screenshot of workflow homepage</figcaption>
+            </figure>
+
+            <h2>Round 2 of testing  </h2>
+            <p>This was a quick follow up session to test some iterations and improvements from the previous session:</p>
+
+            <ul>
+                <li>Did the users understand the proposed solution for the problem of time consuming task allocation? </li>
+                <li>Did users understand the proposal for allocating tasks? </li>
+            </ul>
+
+           <h2>Round 2 of testing results</h2>
+
+            <ul>
+                <li>The solution proposed was to place the number of tasks next to the individual in the filter list. This solution was received positively as users instantly could see how much time it would save. </li>
+                <li>Users also understood the process of selecting multiple tasks and then undertaking the steps in successfully reallocating those. </li>
+            </ul>
+
+        <h2>Outcome</h2>
+    <p>The result of this design and iteration cycle is the workflow tool offers a more standardised and consistent way of working. For workflow managers it will reduce the time exporting data into spreadsheets, creating reports and then allocating work. This work now allows users to see the workloads of their staff at a glance and then offers the user the opportunity to allocate right there. This has a further knock-on effect that the users are able to focus their attention into other tasks.</p>
+
+
+        </main>
+	</div>
+	<footer><div class="copyright"><small>&copy; RWK-UX</small></div></footer>	
+	<!-- <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script> -->
+	</body>
+</html>
