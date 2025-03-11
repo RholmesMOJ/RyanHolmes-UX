@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html data-current="home" lang="en">
+	<head>
+		<title>RBH - IxD</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+	<body>
+	  <div class="wrapper">	
+		<header id="header">
+			<span><a class="home-link" href="https://rholmesmoj.github.io/RyanHolmes-UX/" title="Back to homepage">RBH-UX</a></span>
+			<div class="face-container"></div>
+		</header>
+		<main>
+            <h1 class="project-title">OPG - SIRIUS - Finance legacy system</h1>
+            
+            <h2>The project</h2>
+            <summary><p>The Office of the Public Guardian are going through a period of modernisation. Part of the department strategy was to replace an expensive legacy finance system, which was being partly managed by a third-party company. The business processes were costing the department up to £1.5m a year for processing invoices and all of the data correspondence involved. </p>
+
+            <p> First of all I needed to understand how the finance system worked - how would removing all of the SOP processes impact our users' work load. This was done through a series of introductory research and shadowing sessions. During this period I noticed a lot of issues and areas for improved user experience. These problems ranged from the more complex to quite easy quick wins. </p>
+
+            <p> I audited the existing Finance hub and the finance reporting area. By laying out all of the screens and working out how the areas interacted with one another the team could get a clearer picture of where we needed to focus</p>
+
+            <p> A secondary positive was that this exercise allowed me to see the interactions between user and system, while also allowing me to get a good insight into the data they needed to capture. </p>
+            <br>
+
+            <h2>Ideation session 1</h2>
+
+            <p>After the shadowing sessions were completed it became clear that some of the problems facing the users were quite large. Firstly, I thought it was important to organise some ideation sessions. These would help me to ideate in the future and get the team’s input and get them to be more creative.  </p>
+
+            <p>Because the team are all in a different city and things were moving at a fast pace we decided to run the session remotely. I ran a session with 6 “how might we” questions that I wanted the team's feedback on. These ranged from questions of how we were going to redirect users from the old finance tab to the new finance microservice, issues of seeing certain information as well as undertaking important actions crucial within the lifecycle of a case.  </p>
+
+            <p>I asked the participants to place down thoughts and then I asked people to talk through their ideas. I would then get the team at the end to vote on some for their favourite ideas. I took these ideas through to wireframing and created prototype journeys.  </p>
+
+            <h2>Research session 1</h2>
+
+            <p> I put together designs which looked at the redirecting users from the old legacy system to the new landing page, as well as the main invoices page. For the designs I created the wireframes in Figma. This was because I wanted quick feedback around the page layout, whether the information was correct or anything missing etc. </p>
+
+            <p>Users thought the information was spread out over too many pages in regards to invoices. Users were also struggling to see the content for the redirect. The alert box messaging was not clear enough in its success banner and the timer caused it to sometimes be missed. </p>
+
+            <p> It became clear that through the research that information needed to work on a case was held on a number of different areas within Sirius. This was a problem because a lot of the documents needed were in the old legacy system. This resulted in users doing a lot of flicking back and forth between tabs and systems.  </p>
+
+            <h2>Ideation session 2</h2>
+
+            <p>This session was to again get the team together as a group to discuss some of the large problems uncovered in our first round of research. The main problem I wanted feedback on, was whether the decision to continue isolating off the finance section and leaving the rest of Sirius within the legacy system was the right one. I wanted to know whether there was anything we could do to make this a less separate experience and create a more joined up service. </p>
+
+            <p> The problem was not something we could address due as they were not deemed directly part of the finance system. This meant the department did not deem them as a priority and would have to be included in further iterations after the main finance section was completed. </p>
+
+            <h2>Research session 2</h2>
+
+            <p> The next round of research looked to retest some of the issues from the last round, as well as additionally taking a look at invoice statuses content and fee reductions.  </p>
+
+            <p> The feedback in relation to the fee reduction journey was positively received - though the users expressed again the main waste of time was the going between all the different parts of Sirius to collate information.  </p>
+
+            <p> This round of research gave me a good understanding that the data and the layout of information was now intuitive and users were able to find the information they needed quickly. </p>
+
+            <p>Again, I submitted the wireframes using figma. This gave us some good points to draw analysis from but decided for going forward the research sessions would need to add complexity figma simply could not handle.  </p>
+
+            <h2>Research session 3</h2>
+
+
+            <p> The third round of testing was to look at the UI changes to previous iterations of the invoices page and also to look at other additions. I wanted to get some feedback on designs for the creation of a manual invoice and then adding a write off or manual credit to the newly created invoice. </p>
+
+            <p>This was something that required me to begin building the prototype into code, so I used the gov prototype kit. Using the kit I was able to replicate life like work scenarios of our users getting greater insights back in return. I could also get the user to information that would then be carried through the prototype creating real test scenarios. </p>
+
+            <p> The feedback for creating and managing invoices was an intuitive process with little confusion. No user expressed any difficulty in completing these tasks, feedback suggested that we could prepopulate financial year dates into the forms to save users time but mainly were happy with the process. </p>
+
+            <p> The feedback for the write off and manual credit was also positive with users saying that it was easy to undertake those tasks. Though again users wondered whether we could pre-populate dates, but overall were happy with the journey. </p>
+
+            <h2>Research session 4</h2>
+
+             <p> During research we heard from users that because of the business processes understanding the current state and history of a case is really important. The current timeline for finance related content was mixed into the main legacy system timeline. It was known this timeline was not fit for purpose for many reasons. </p>
+
+             <p> For the new addition of a timeline within the finance section I wanted to understand; what amount of information was needed? Was it possible to provide this information through other means or areas?  </p> 
+
+             <p> It became clear that by providing historical case information could be done through analysing the invoices table, but took users a while to correctly understand all of the goings on. Another issue was that this could again be a lot of information and users were not able to filter down and remove the bits not needed. Therefore users would have to do quite a bit of scanning all over the page in different areas to fully understand the history. </p>
+             
+             <p>This was used as evidence for the need for a timeline, but one which users were able to filter and manipulate to get to the information they needed.  </p>
+
+             <p> I mocked up some ideas for timelines before putting them back in front of the users. These sessions proved valuable in getting the needs of the users and also to not repeat the same mistakes of the old timeline.  </p>
+
+             <p> </p>
+
+            <h2>Outcome</h2>
+        
+            <p>All of these research sessions helped to shape the MVP for the finance microservice, which is now in the cycle of development and design QA testing. The feedback so far from users has been extremely  positive and they are looking forward to the completion so it can be implemented. This collaborative approach also fostered a positive team culture, which hopefully will lead to an increased efficiency and alignment on future projects.</p>
+
+
+        </main>
+	</div>
+	<footer><div class="copyright"><small>&copy; RWK-UX</small></div></footer>	
+	<!-- <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script> -->
+	</body>
+</html>
